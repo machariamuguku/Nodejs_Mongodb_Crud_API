@@ -1,4 +1,4 @@
-# A Nodejs, Mongodb, and bodyparser Crud API Server
+# A Nodejs, Mongodb, and bodyparser Crud REST API Server
 
 ## Project setup
 ```
@@ -24,9 +24,51 @@ use productstutorial
 ```
 node app.js
 ```
+### The test router and controler (Get)
 
-### Test the API on Postman (download postman with the link below)
+go to ```http://localhost:1234/products/test``` on your browser
+
+
+### Test (GET, PUT, DELETE) on Postman (download postman with the link below)
 [Get Postman here ](https://www.getpostman.com/).
+
+##### test controller
+
+```
+localhost:1234/products/test
+```
+
+##### create controller
+
+```
+localhost:1234/products/create
+
+# choose x-www-form-urlencoded in the Body tab 
+# and Put the following values in the Key and Value tabs respectively
+
+# 	KEY		VALUE
+#	1. name		name1
+#	2. price	100
+
+```
+
+##### Read controller 
+
+```
+localhost:1234/products/PRODUCT_ID
+
+# Use mongo cli to get the ID'S from the db 
+# run the following
+
+mongo
+
+use productstutorial
+
+show collections
+
+db.products.find().limit(10);
+```
+
 
 ### Screenshots:
 
