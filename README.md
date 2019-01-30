@@ -24,18 +24,23 @@ use productstutorial
 ```
 node app.js
 ```
-### The test router and controler (Get)
+### Test if the router is working
 
-go to ```http://localhost:1234/products/test``` on your browser
+go to ``` http://localhost:1234/products/test ``` on your browser
 
 
-### Test (GET, PUT, DELETE) on Postman (download postman with the link below)
+
+### Test the other REST API methods (get, put, delete) on Postman 
+
+## (download postman with the link below)
 [Get Postman here ](https://www.getpostman.com/).
 
 ##### test controller
 
 ```
 localhost:1234/products/test
+
+# use GET method
 ```
 
 ##### create controller
@@ -43,6 +48,7 @@ localhost:1234/products/test
 ```
 localhost:1234/products/create
 
+# use POST method
 # choose x-www-form-urlencoded in the Body tab 
 # and Put the following values in the Key and Value tabs respectively
 
@@ -61,12 +67,10 @@ localhost:1234/products/PRODUCT_ID
 # run the following
 
 mongo
-
 use productstutorial
-
 show collections
-
 db.products.find().limit(10);
+
 ```
 
 
