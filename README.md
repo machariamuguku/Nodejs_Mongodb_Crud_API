@@ -1,6 +1,10 @@
 # A Nodejs, Mongodb, and bodyparser Crud REST API Server
 
 ## Project setup
+prerequisites: install nodejs and mongodb
+
+### install the project
+
 ```
 npm install
 ```
