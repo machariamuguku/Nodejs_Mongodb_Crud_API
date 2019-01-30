@@ -39,9 +39,9 @@ node app.js
 ## create productstutorial database
 ![Alt text](screenshots/Screenshot_3_create_db.png?raw=true "create productstutorial database")
 
-## start the app
-![Alt text](screenshots/Screenshot_4_start_app .png?raw=true "start the app")
 
+## start the app
+![Alt text](screenshots/Screenshot_4_start_app.png?raw=true "start the app")
 
 #### N/B: This is based on this tutorial on medium: [Writing a CRUD app with Node.js and MongoDB](https://codeburst.io/writing-a-crud-app-with-node-js-and-mongodb-e0827cbbdafb)
 
